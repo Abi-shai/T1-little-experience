@@ -1,0 +1,15 @@
+.canvas-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.html-text {
+  background-color: rgba(0, 0, 0, 0.671);
+  color: white;
+  padding: 1em 3em;
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 50px;
+  width: max-content;
+  pointer-events: none;
+}
