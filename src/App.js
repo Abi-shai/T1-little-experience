@@ -7,12 +7,6 @@ import './App.css';
 
 const App = () => {
 
-  const { rotation } = useControls("camera-controls", {
-    rotation: {
-      value: { x: 0, y: 0, z: 0 }
-    }
-  })
-
   const onCreated = ({ gl }) => {
     gl.setClearColor("#330136", .9);
   }
